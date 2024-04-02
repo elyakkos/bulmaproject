@@ -1,0 +1,16 @@
+{
+  "name": "bulma-project-3",
+  "version": "0.0.1",
+  "description": "bulma",
+  "main": "sass/my-bulma-project.css",
+  "scripts": {
+    "build-bulma": "sass --load-path=node_modules my-bulma-project.scss my-bulma-project.css",
+    "start": "npm run build-bulma -- --watch"
+  },
+  "author": "eleonora",
+  "license": "ISC",
+  "dependencies": {
+    "bulma": "^1.0.0",
+    "sass": "^1.72.0"
+  }
+}
